@@ -10,7 +10,7 @@ RUN npm i
 
 # Build
 WORKDIR /app
-COPY Dockerfiles .
+COPY Dockerfile .
 RUN npm run build
 
 # Application
