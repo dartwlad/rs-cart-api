@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "443280315061.dkr.ecr.us-east-1.amazonaws.com/dartwlad-cart-api:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 8000
+    }
+  ]
+}

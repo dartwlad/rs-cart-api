@@ -1,0 +1,10 @@
+# We do not need node_modules, we will build it
+**/node_modules
+
+# We do not run tests before build, so don't need them
+**/test
+
+# Readme and lint configs are not needed
+README.md
+.prettierrc
+.eslintrc.js
